@@ -12,12 +12,6 @@
 
 **该项目是由 Vite 构建,基于 React Hooks 框架配合 Typescript 语言的 H5 端快速开发的模板项目,该项目适配屏幕使用的`postcss-px-to-viewport`直接写 px 自动转换为 vw 或者 rem,项目也添加了路由切换动画,适配`chrome safari底部工具栏`**
 
-**项目持续迭代中,如果有疑问[提出 issues](https://github.com/q1104133609/react-ts-h5-template/issues/new)**
-
-## 预览地址
-
-![url](./public/demo.png)
-
 ## Project setup
 
 ```
@@ -114,10 +108,4 @@ react-ts-h5-template
 │     └─ index.ts
 └─ tsconfig.json
 
-```
-
-## 图标地址
-
-```
-https://www.iconfont.cn/manage/index?manage_type=myprojects&projectId=2119875
 ```
