@@ -1,11 +1,10 @@
 /*
- * @Descripttion:
- * @version:
- * @Author: 小白
- * @Date: 2020-10-05 20:53:50
- * @LastEditors: 小白
- * @LastEditTime: 2021-11-13 17:07:45
+ * @Author: M78.Kangzhaotong 
+ * @Date: 2022-09-06 14:26:06 
+ * @Last Modified by:   M78.Kangzhaotong 
+ * @Last Modified time: 2022-09-06 14:26:06 
  */
+
 import { memo } from 'react';
 import { useNavigate } from 'react-router-dom';
 const Other = () => {

@@ -1,10 +1,8 @@
 /*
- * @Descripttion:
- * @version:
- * @Author: 小白
- * @Date: 2020-10-08 21:06:24
- * @LastEditors: 小白
- * @LastEditTime: 2021-11-13 11:36:44
+ * @Author: M78.Kangzhaotong 
+ * @Date: 2022-09-06 14:25:38 
+ * @Last Modified by: M78.Kangzhaotong
+ * @Last Modified time: 2022-09-06 14:25:59
  */
 import { memo } from 'react';
 import { useNavigate } from 'react-router-dom';
