@@ -1,14 +1,9 @@
-import { memo, useState, useContext, useEffect } from 'react';
+import { memo, useState, } from 'react';
 import styles from './index.module.less';
 import image from '@/assets/images/search_tab.png';
-import { HomeContext } from '@/Context/homeContext';
 import { Button, Space } from 'antd-mobile';
 
 const Detail = () => {
-  const homeName = useContext(HomeContext);
-  useEffect(()=> {
-    console.log(homeName);
-  }, [homeName]) 
   const [userInfo, setUserInfo] = useState<{
     name: string;
     id?: string;
@@ -24,7 +19,7 @@ const Detail = () => {
   return (
     <div>
       <div className="detail_top row">
-        <Button onClick={openInfo}>{userInfo.name}{homeName.name}</Button>
+        <Button onClick={openInfo}>{userInfo.name}</Button>
         <Space wrap>
           <Button
             onClick={() => {
